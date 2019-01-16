@@ -1,0 +1,18 @@
+live-server 快速搭建临时服务器：
+1.npm install -g live-server
+2.项目初始化 npm init （一路回车）
+3.在package.json中增加start中增加新的脚本
+"scripts": {
+  "server": "live-server ./ --port=9090"
+}
+4.live-server 笔记跑起来
+
+
+服务号 -- 企业组织申请的
+订阅号-- 个人企业都可以
+
+
+使用ngrok 可以将自己电脑作为服务器，并且提供外网访问地址的方式！
+1.ngrok.cc官网注册账号
+2.在ngrok服务器开通隧道
+3.本地使用ngrok工具 建立链接
